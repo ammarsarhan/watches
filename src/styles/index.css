@@ -1,0 +1,33 @@
+* {
+    font-family: "Cormorant Garamond", 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.reset {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button.outline {
+    font-family: "Cormorant Garamond", 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}

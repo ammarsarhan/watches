@@ -1,0 +1,64 @@
+/* Hero container */
+
+div.hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
+div.hero-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+/* Play/Pause button */
+
+button.hero-play-action {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+
+/* Section hero */
+section.hero {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+}
+
+section.hero > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.hero > div > div {
+    mix-blend-mode: difference;
+}
+
+section.hero > div > div > span {
+    font-size: 12.5vw;
+    line-height: 95%;
+    display: block;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+}
+
+button.hero-action {
+    width: fit-content;
+}

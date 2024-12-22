@@ -3,10 +3,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-}
-
-nav {
     padding: 1.5rem 2rem;
+    mix-blend-mode: difference;
 }
 
 nav > h2 {

@@ -66,6 +66,15 @@ div.navigation-overlay-content a {
     opacity: 0;
 }
 
+.navigation-overlay-content a:hover {
+    color: white; /* Change the hovered link color */
+}
+
+/* Change other links' color when one is hovered */
+.navigation-overlay-content:hover a:not(:hover) {
+    color: rgb(150, 150, 150); /* Change non-hovered links' color */
+}
+
 div.navigation-overlay-content ul li {
     list-style-type: none;
     text-align: center;
@@ -74,8 +83,11 @@ div.navigation-overlay-content ul li {
 
 div.navigation-overlay-content > div {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     column-gap: 1rem;
+    padding: 0 1.5rem;
 }
 
 div.navigation-overlay-content > div a {
@@ -102,4 +114,17 @@ div.navigation-overlay-background {
     background: black;
     opacity: 95%;
     transform: translateY(-100%);
+}
+
+/* Small Tablet View */
+@media screen and (max-width: 768px) {
+    div.navigation-overlay-content ul li {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.navigation-utilites button.outline {
+        display: none;
+    }
 }

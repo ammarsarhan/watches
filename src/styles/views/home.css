@@ -24,7 +24,7 @@ button.hero-play-action {
     position: absolute;
     top: 0;
     right: 2rem;
-    border: 1px solid white;
+    border: 1px solid white !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,4 +61,13 @@ section.hero > div > div > span {
 
 button.hero-action {
     width: fit-content;
+}
+
+/* Small Tablet/Mobile View */
+
+@media screen and (max-width: 768px) {
+    section.hero > div > div > span {
+        font-size: 15vw;
+        margin-top: 1rem;
+    }
 }

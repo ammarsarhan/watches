@@ -1,13 +1,15 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import { NavigationOverlay } from './components/Navigation';
 import Home from './views/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <NavigationOverlay/>
       <Routes>
         <Route path="/" Component={Home}/>
       </Routes>
-    </BrowserRouter>
+    </>
   )
 }
 

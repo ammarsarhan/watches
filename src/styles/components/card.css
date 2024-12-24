@@ -1,0 +1,76 @@
+a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+div.timepieces-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 37.5vw;
+}
+
+/* Label */
+
+div.timepieces-card-label-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    position: relative;
+}
+
+div.timepieces-card-label-border {
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+div.timepieces-card span {
+    text-align: center;
+    width: 100%;
+    font-size: 1.25vw;
+}
+
+/* Image */
+
+div.timepieces-card-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    width: 100%;
+}
+
+div.timepieces-card-image-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Small laptop view */
+@media screen and (max-width: 1024px) {
+    div.timepieces-card span {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    div.timepieces-card span {
+        font-size: 1.75vw;
+    }
+}
+
+/* Tablet view */
+@media screen and (max-width: 768px) {
+    div.timepieces-card {
+        height: 60vw;
+    }
+
+    div.timepieces-card span {
+        font-size: 3vw;
+    }
+}

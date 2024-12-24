@@ -23,7 +23,7 @@ div.hero-content {
 button.hero-play-action {
     position: absolute;
     top: 0;
-    right: 2rem;
+    right: 0;
     border: 1px solid white !important;
     display: flex;
     align-items: center;
@@ -57,6 +57,11 @@ section.hero > div > div > span {
     display: block;
     margin-bottom: 1rem;
     white-space: nowrap;
+    z-index: 5;
+}
+
+section.hero > div > a {
+    z-index: 10;
 }
 
 button.hero-action {

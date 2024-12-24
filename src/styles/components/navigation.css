@@ -6,6 +6,8 @@ nav {
     padding: 1.5rem 2rem;
     mix-blend-mode: difference;
     z-index: 100;
+    width: 100%;
+    top: 0;
 }
 
 nav > h2 {
@@ -124,7 +126,7 @@ div.navigation-overlay-background {
 }
 
 @media screen and (max-width: 600px) {
-    div.navigation-utilites button.outline {
+    div.navigation-utilites a.outline {
         display: none;
     }
 }

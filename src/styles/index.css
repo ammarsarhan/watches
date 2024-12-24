@@ -26,7 +26,7 @@ button.reset {
     outline: none;
 }
 
-button.outline {
+button.outline, a.outline {
     font-family: "Cormorant Garamond", 'Times New Roman', Times, serif;
     background-color: transparent;
     color: whitesmoke;

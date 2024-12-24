@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router';
 
 import Navigation from '../components/Navigation';
 import Background from '../components/Background';
@@ -20,7 +21,11 @@ function Home() {
           </button>
           <section className="hero" style={{color: 'white'}}>
             <div>
-              <button className='hero-action outline'>DISCOVER TIMEPIECES</button>
+              <Link to="/timepieces">
+                <button className='hero-action outline'>
+                  DISCOVER TIMEPIECES
+                </button>
+              </Link>
               <div>
                 <span>TIMEPIECES</span>
               </div>

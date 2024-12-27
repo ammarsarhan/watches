@@ -7,7 +7,7 @@ import { Search } from "lucide-react"
 import "../styles/views/timepieces.css"
 
 export default function Timepieces () {
-    const [data, setData] = useState([
+    const [data] = useState([
         {
             image: "https://www.datocms-assets.com/99008/1733412283-bu300-21-aa-aa-a.webp?auto=compress%2Cformat&dpr=2&w=464",
             label: "BUGATTI TOURBILLION",
